@@ -363,7 +363,7 @@ header nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2);}
 }
 /* ==============PLAN=============== */
 #plan {
-    padding: 68px 30px 120px;
+    padding: 68px 0 120px;
     background: #f4fbfc url(images/resource-background-pattern.png) no-repeat center bottom;
 }
 #plan .heading-section::after {margin-bottom: 100px;}
