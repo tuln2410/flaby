@@ -574,6 +574,9 @@ header nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2);}
 
 }
 @media only screen and (max-width: 768px) {
+    header nav ul li:last-child {
+        margin-right: 0;
+    }
     .our-services-block {
         justify-content: center;
     }
@@ -657,14 +660,105 @@ header nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2);}
     header nav ul li a {
         padding: 0 10px;
     }
+    header nav ul li:not(:last-child) {
+        display: none;
+    }
     #hero {
-        padding: 100px 30px 70px; 
+        padding: 70px 30px; 
+    }
+    #hero h1 {
+        font-size: 30px;
+        padding-bottom: 37px;
+        max-width: 540px;
+    }
+    #hero h2 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 50px;
     }
     .hero__button .btn:first-child {
         margin: 0 10px;
         margin-bottom: 30px;
     }
-    #resource {
-        padding: 20px 30px 50px!important;
+    #our-services {
+        padding-bottom: 80px;
     }
+    .our-services-block__element {
+        max-width: 100%;
+        text-align: center;
+    }
+    #features {
+        padding-bottom: 70px;
+    }
+    .features__content {
+        padding: 60px 30px 0;
+        text-align: center;
+    }
+    #features .heading-section span,
+    #features .heading-section {
+        text-align: center;
+    }
+    #features .heading-section span {
+        margin-bottom: 5px;
+    }
+    #features .heading-section {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+    .features__content p {
+        margin: 20px 0;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .features__content ul {
+        text-align: left;
+    }
+    .other-services__content {
+        max-width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 60px 0;
+    }
+    #customer {
+        padding: 50px 30px;
+    }
+    #customer .heading-section::after {
+        margin-bottom: 90px;
+    }
+
+    .customer__content {
+        position: relative;
+        display: none;
+        text-align: center;
+        max-width: 728px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 75px 10px 50px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        z-index: 1000;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        box-shadow: 0 0 52px rgba(0, 0, 0, 0.08);
+    }
+    .customer__content::before,
+    .customer__content::after {
+    display: none;
+}
+    #resource {
+        padding: 60px 30px 40px!important;
+    }
+    #plan {
+        padding: 68px 0 120px;
+    }
+    #footer-top div:not(:first-child){
+        max-width: 50%;
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #footer-top h6 {
+        margin-bottom: 25px;
+    }
+    
 }
