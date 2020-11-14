@@ -623,7 +623,7 @@ header nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2);}
         background: url(images/gift-icon.png) no-repeat center top;
     }
     #resource {
-        padding: 100px 30px;
+        padding: 80px 30px !important;
     }
     #plan .heading-section::after {
         margin-bottom: 70px;
@@ -663,5 +663,8 @@ header nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2);}
     .hero__button .btn:first-child {
         margin: 0 10px;
         margin-bottom: 30px;
+    }
+    #resource {
+        padding: 20px 30px 50px!important;
     }
 }
