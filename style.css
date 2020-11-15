@@ -48,7 +48,7 @@ button{cursor: pointer;}
 }
 /* ==============HEADER============== */
 header {
-    background: url(images/hero-background.jpg);
+    background: #42a8f6 url(images/hero-background.jpg);
 }
 header nav {
     display: flex;
@@ -157,6 +157,7 @@ header nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2);}
 /* ===============FEATURES============ */
 #features {
     background: url(images/mockup.png) -226px 118px no-repeat, url(images/feature-background.png) no-repeat;
+    background-color:  #fafbfb;
     padding-bottom: 186px;
 }
 .features__content {
@@ -241,7 +242,7 @@ header nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2);}
 /* ============CUSTOMER=========== */
 #customer {
     padding: 50px 30px 100px;
-    background: url(images/customer-background.png) no-repeat;
+    background: #f3f9fa url(images/customer-background.png) no-repeat;
 }
 #customer .heading-section::after{margin-bottom: 120px;}
 .customer__content {
@@ -519,16 +520,19 @@ header nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2);}
 @media only screen and (max-width: 1320px){
     #features {
         background: url(images/mockup.png) -310px 118px no-repeat, url(images/feature-background.png) no-repeat;
+        background-color:  #fafbfb;
     }
 }
 @media only screen and (max-width: 1200px){
     #features {
         background: url(images/mockup.png) -350px 118px no-repeat, url(images/feature-background.png) no-repeat;
+        background-color:  #fafbfb;
     }
 }
 @media only screen and (max-width: 1120px) {
     #features {
         background: url(images/mockup.png) -380px 118px no-repeat, url(images/feature-background.png) no-repeat;
+        background-color:  #fafbfb;
     }
 }
 @media only screen and (max-width: 997px){
@@ -556,6 +560,7 @@ header nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2);}
     /* FEATURE */
     #features {
         background: url(images/mockup.png) -620px 118px no-repeat, url(images/feature-background.png) no-repeat;
+        background-color:  #fafbfb;
     }
     .features__content {
         margin-left: 35%;
@@ -586,6 +591,7 @@ header nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2);}
     }
     #features {
         background: url(images/mockup.png) center 50px no-repeat, url(images/feature-background.png) repeat;
+        background-color:  #fafbfb;
         padding-bottom: 120px;
         background-size: 80%, 100%;
     }
